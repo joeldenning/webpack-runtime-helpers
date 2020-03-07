@@ -154,4 +154,4 @@ var Thing = function Thing() {
 		}
 	};
 });
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=dev.js.map

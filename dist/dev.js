@@ -92,6 +92,25 @@ System.register([], function(__WEBPACK_DYNAMIC_EXPORT__) {
 /************************************************************************/
 /******/ ({
 
+/***/ "./final-thing.js":
+/*!************************!*\
+  !*** ./final-thing.js ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var FinalThing = function FinalThing() {
+  _classCallCheck(this, FinalThing);
+
+  console.log('final thing');
+};
+
+new FinalThing();
+
+/***/ }),
+
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
@@ -102,7 +121,6 @@ System.register([], function(__WEBPACK_DYNAMIC_EXPORT__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _thing_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./thing.js */ "./thing.js");
-/* harmony import */ var _thing_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_thing_js__WEBPACK_IMPORTED_MODULE_0__);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 
@@ -117,14 +135,44 @@ new Hi();
 
 /***/ }),
 
+/***/ "./other-thing.js":
+/*!************************!*\
+  !*** ./other-thing.js ***!
+  \************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _final_thing__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./final-thing */ "./final-thing.js");
+/* harmony import */ var _final_thing__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_final_thing__WEBPACK_IMPORTED_MODULE_0__);
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+
+
+var OtherThing = function OtherThing() {
+  _classCallCheck(this, OtherThing);
+
+  console.log('other thing');
+};
+
+new OtherThing();
+
+/***/ }),
+
 /***/ "./thing.js":
 /*!******************!*\
   !*** ./thing.js ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _other_thing__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./other-thing */ "./other-thing.js");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+
 
 var Thing = function Thing() {
   _classCallCheck(this, Thing);

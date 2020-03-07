@@ -109,7 +109,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var Hi = function Hi() {
   _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Hi);
+
+  console.log('hello');
 };
+
+new Hi();
 
 /***/ }),
 
@@ -145,7 +149,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var Thing = function Thing() {
   _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Thing);
+
+  console.log('thing');
 };
+
+new Thing();
 
 /***/ })
 

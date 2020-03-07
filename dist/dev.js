@@ -92,6 +92,29 @@ System.register([], function(__WEBPACK_DYNAMIC_EXPORT__) {
 /************************************************************************/
 /******/ ({
 
+/***/ "./final-thing.js":
+/*!************************!*\
+  !*** ./final-thing.js ***!
+  \************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var FinalThing = function FinalThing() {
+  _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, FinalThing);
+
+  console.log('final thing');
+};
+
+new FinalThing();
+
+/***/ }),
+
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
@@ -134,6 +157,31 @@ module.exports = _classCallCheck;
 
 /***/ }),
 
+/***/ "./other-thing.js":
+/*!************************!*\
+  !*** ./other-thing.js ***!
+  \************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _final_thing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./final-thing */ "./final-thing.js");
+
+
+
+var OtherThing = function OtherThing() {
+  _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, OtherThing);
+
+  console.log('other thing');
+};
+
+new OtherThing();
+
+/***/ }),
+
 /***/ "./thing.js":
 /*!******************!*\
   !*** ./thing.js ***!
@@ -145,6 +193,8 @@ module.exports = _classCallCheck;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
 /* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _other_thing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./other-thing */ "./other-thing.js");
+
 
 
 var Thing = function Thing() {

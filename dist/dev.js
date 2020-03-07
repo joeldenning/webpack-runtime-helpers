@@ -109,7 +109,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 var Hi = function Hi() {
   _classCallCheck(this, Hi);
+
+  console.log('hello');
 };
+
+new Hi();
 
 /***/ }),
 
@@ -124,7 +128,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 var Thing = function Thing() {
   _classCallCheck(this, Thing);
+
+  console.log('thing');
 };
+
+new Thing();
 
 /***/ })
 

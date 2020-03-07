@@ -42,7 +42,7 @@ module.exports = [
       ]
     },
     devtool: 'sourcemap',
-    mode: 'development',
+    mode: 'production',
     externals: {
       foo: './foo.js',
       bar: './bar.js',
